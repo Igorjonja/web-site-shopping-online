@@ -2,6 +2,8 @@
 
 require_once 'config/setup.php';
 
+//Table preparing
+
 try{
     $sql = "CREATE TABLE users (
         id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -12,7 +14,7 @@ try{
     )";
 
     $connection->exec($sql);
-    echo "<p> Tabula izveidota! </p>";
+    echo "<p> Table added </p>";
 } catch (PDOException $e){
     echo $e->getMessage();
 }

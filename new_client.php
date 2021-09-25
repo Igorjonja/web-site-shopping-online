@@ -18,7 +18,7 @@
     <main id="main">
         <div>
     <div class="signinForm">
-        <form  id="Sign in" method="post">
+        <form  id="Sign in" method="post" action="data_insert_dbs.php">
             <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
             <br>
@@ -51,13 +51,13 @@
             </fieldset>
 
 
-                <input class="submit" type="submit" value="Sign in" method>
+                <input class="submit" type="submit" value="Sign in" method=$_POST>
 
-
+                
 
 
         </form>
-     
+        <?php include('data_insert_dbs.php')?>   
 
     
     </div>
@@ -76,7 +76,7 @@
             </fieldset>
         </form>
         
-   
+    
     <?php include('randompass.php')?>
     </div>
         </div>
