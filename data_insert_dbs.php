@@ -2,16 +2,28 @@
 
 require_once 'config/setup.php';
 
+if(isset($_POST["username"],
+$_POST["password"],
+$_POST["email"])){
+
+
+$username=$_POST["username"];
+$password=$_POST["password"];
+$email=$_POST["email"];
+}
+
+
+
 //Inserting data
-var_dump($_POST);
+
 try{
     $sql = "INSERT INTO users (username, password, email)
-        VALUES ('user2', 'password2', 'username@email.com')";
+        VALUES ('$username','$password', '$email')";
 
     $connection->exec($sql);
     echo "<p> User successfully registered! </p>";
-} catch (PDOException $e){
-    echo $e->getMessage();
+} catch(PDOException $e){
+    // echo $e->getMessage();
 }
 
 $connection = null;

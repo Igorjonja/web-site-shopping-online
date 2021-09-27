@@ -53,7 +53,7 @@ function gernerate_pass($case1, $case2, $case3,$numOfSymbol){
 // var_dump($keySpace);
 
 
-    if($input_length>=$numOfSymbol){          //key space length should be greater then input numbers
+    if($input_length>$numOfSymbol){          //key space length should be greater then input numbers
 
         for ($i = 0; $i < $numOfSymbol;) { // characters counter
 
@@ -84,9 +84,7 @@ function gernerate_pass($case1, $case2, $case3,$numOfSymbol){
     }else{echo"Please select more cases or insert more characters";}
 
 }
-if(isset($_POST['num_of_symbols'])){
+// var_dump($_POST['num_of_symbols']);
+if(isset($numOfSymbol)>0){
     gernerate_pass($case1, $case2, $case3, $numOfSymbol);
 }
-
-
-?>

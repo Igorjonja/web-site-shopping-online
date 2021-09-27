@@ -1,6 +1,5 @@
 <?php
-
-
+#Make the navigation an active
 // var_dump($_SERVER["PHP_SELF"]); cheking link name
 if(isset($_SERVER["PHP_SELF"])){
     $link= $_SERVER["PHP_SELF"];

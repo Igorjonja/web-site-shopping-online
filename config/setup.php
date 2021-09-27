@@ -19,6 +19,3 @@ try{
 } catch (PDOException $e){
     echo "Could not connect: " . $e->getMessage() . "<br>";
 }
-
-
-?>

@@ -1,178 +1,172 @@
-*{
-   /* border: 1px solid red; */
-    margin: 0;
-    padding: 0;
-}
-html{
-    padding-bottom: 0px;
-}
-
-body{
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 2px solid #2d425a;
-    background: rgba(217, 175, 146, 0.8);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-main{
-    background-color: #d0a68d;
-    background-image: url("https://live.staticflickr.com/2018/2094252093_8e84f4102a_b.jpg");
-    background-position: center;
-    background-size: cover;
-    font-size: 1em;
-    padding: 5px 10px 5px;
-    
-    margin: auto;
- 
-
-}
-
-/* Navigation Start*/
-    ul {
+        * {
+            /* border: 1px solid red; */
+            margin: 0;
+            padding: 0;
+        }
         
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;
-        overflow: hidden;
-        background-color: #84a0bf;
-    }
-
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: #4a3930;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+        html {
+            padding-bottom: 0px;
+        }
         
-    }
-
-    li a:hover {
-        background-color: #3a465a;
-        color: beige;
-        transition: 1s;
+        body {
+            margin-left: 20px;
+            margin-right: 20px;
+            border: 2px solid #2d425a;
+            background: rgba(217, 175, 146, 0.8);
+            font-family: Arial, Helvetica, sans-serif;
+        }
         
-
-    }
-    .active {
-        background-color: #5178a2;
-        color: beige;
-    }
-
-.dropdown-content{
-    display: none;
-    background-color:bisque;
-    position: absolute;
-    z-index: 1;
-    
-}
-
-
-li:hover .dropdown-content{
-    display:block;
-   
-}
-
-
-
-/* Navigation END */
- 
-
-hr{
-    border: 1px solid #2d425a;
-
-}
-
-
-.log-panel{
-    border: 2px solid #344e69;
-    box-shadow: 10px 5px 5px #2d425a;
-    margin: 10px;
-    display:block;
-    position: relative;
-    float: right;
-    padding: 10px;
-}
-
-footer{
-  
-    border-top: 1px solid #2d425a;
-    position: static;
-    text-align: left;
-    padding: 2px;     
-   
-    background-color: #84a0bf;      
-}
-
-.footinfo{
-    margin-bottom: 0px;
-    padding-left: 1rem;
-    font-size: 1rem ;
-    font-family: 'Yanone Kaffeesatz', sans-serif;  
-}
-
-.signinForm{
-    display:inline-block;
-    box-sizing: content-box;
-    vertical-align: top;
-    
-   
-     border: 2px solid #2d425a;
-    
-}
-
-.signinForm label{
-    margin-left: 10px;
-}
-.signinForm input{
-    margin: 8px 4px;
-}
-
-#gender{
-    margin-left: 5px;
-}
-.submit{
-    padding: 2px;
-}
-
-
-.changeColor{
-    display: block;
-    position: sticky;
-    float: right;
-    top:0.5em;
-    
-    height: 30px;
-    font-family: 'Dancing Script', cursive;
-    padding: 2px 10px;
-    font-size: 1em;
-    background: #5178A2;
-    color: beige;
-
-}
-.catimg{
-    display: block;
-    width: 300px;
-    height: 300px;
-}
-
-.redline{
-    text-indent: 40px;
-   
-} 
-
-#table{
-    border: 2px solid #3a465a;
-    min-width: 300px;
-    width: 50%;
-    position: relative;
-    left:0px;
-    
-
-}
+        main {
+            background-color: #d0a68d;
+            background-image: url("https://live.staticflickr.com/2018/2094252093_8e84f4102a_b.jpg");
+            background-position: center;
+            background-size: cover;
+            font-size: 1em;
+            padding: 5px 10px 5px;
+            margin: auto;
+        }
+        /* Navigation Start*/
+        
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #84a0bf;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: #4a3930;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #3a465a;
+            color: beige;
+            transition: 1s;
+        }
+        
+        .active {
+            background-color: #5178a2;
+            color: beige;
+        }
+        
+        .dropdown-content {
+            display: none;
+            background-color: bisque;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        li:hover .dropdown-content {
+            display: block;
+        }
+        /* Navigation END */
+        
+        hr {
+            border: 1px solid #2d425a;
+        }
+        
+        .log-panel {
+            border: 2px solid #344e69;
+            box-shadow: 10px 5px 5px #2d425a;
+            margin: 10px;
+            display: block;
+            position: relative;
+            float: right;
+            padding: 10px;
+        }
+        
+        footer {
+            border-top: 1px solid #2d425a;
+            position: static;
+            text-align: left;
+            padding: 2px;
+            background-color: #84a0bf;
+        }
+        
+        .footinfo {
+            margin-bottom: 0px;
+            padding-left: 1rem;
+            font-size: 1rem;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+        }
+        
+        .signinForm {
+            display: inline-block;
+            box-sizing: content-box;
+            vertical-align: top;
+            border: 2px solid #2d425a;
+            padding: 5px;
+            ;
+        }
+        
+        .signinForm label {
+            margin-left: 10px;
+        }
+        
+        .signinForm input {
+            margin: 8px 4px;
+        }
+        
+        #gender {
+            margin-left: 5px;
+        }
+        
+        .submit {
+            padding: 2px;
+        }
+        
+        .changeColor {
+            display: block;
+            position: sticky;
+            float: right;
+            top: 0.5em;
+            height: 30px;
+            font-family: 'Dancing Script', cursive;
+            padding: 2px 10px;
+            font-size: 1em;
+            background: #5178A2;
+            color: beige;
+        }
+        
+        .catimg {
+            display: block;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .redline {
+            text-indent: 40px;
+        }
+        
+        #table {
+            border: 2px solid #3a465a;
+            min-width: 300px;
+            width: 50%;
+            position: relative;
+            left: 0px;
+        }
+        
+        #divimg {
+            position: relative;
+            display: flex;
+            float: left;
+            width: 30%;
+            margin: 10px;
+        }
+        
+        #divimg2 {
+            position: relative;
+            display: flex;
+            width: 30%;
+            margin: 10px;
+            float: right;
+        }
