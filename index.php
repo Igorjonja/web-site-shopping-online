@@ -1,4 +1,4 @@
-<!-- <?php include('config/setup.php'); ?> -->
+<?php include('config/setup.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,6 +54,7 @@
                     Fusce vel leo purus. Etiam nibh lacus, lacinia et nibh id, posuere mattis ipsum. Donec viverra arcu sit amet purus tincidunt rutrum. Donec elementum ullamcorper ullamcorper. Curabitur libero eros, hendrerit ut malesuada ut, pharetra id libero. Donec purus orci, sodales id sollicitudin vel, tempus a turpis. Donec elit enim, malesuada in ex eu, egestas iaculis tellus. In volutpat lacinia dui ac porta. Vivamus eu feugiat dolor. Duis finibus justo bibendum vehicula vulputate. Pellentesque nec velit pharetra, lacinia velit ut, efficitur felis. Integer non ante nisl. Nulla fermentum dignissim consectetur. Integer consectetur sapien vel aliquet ullamcorper. Cras semper turpis vitae suscipit consequat. Quisque non eros nisi. Phasellus at purus consectetur, laoreet tellus vel, vehicula velit. Nunc hendrerit dolor.e the free Color Calculator to explore creative color options for your design project. Simply pick your base color(s), choose a color harmony, tweak/explore as needed, and see results. You’ll get a report of the hex, RGB, and CMYK color values for your project and see your colors applied to design samples. Share or print, rinse and repeat.
                 </p>
             </div>
+            <div id="divimg2"> <img src="https://cdn.pixabay.com/photo/2021/04/26/01/39/trees-6207925_1280.jpg" alt="..." class="img-thumbnail"></div>
             <div id="Chapter2">
 
                 <h2>Topic2</h2>
@@ -62,7 +63,7 @@
                     Morbi quis molestie odio. Quisque ultricies est et ultrices iaculis. Donec fringilla posuere nisl, sit amet semper elit interdum sed. Etiam tincidunt vitae libero et finibus. Nulla iaculis nibh eu mi maximus, vel tristique quam feugiat. Donec consectetur tortor nibh, nec finibus quam mattis in. Donec pulvinar accumsan tincidunt. Nulla tempus id risus quis viverra.
 
                     Nunc mollis sagittis metus, sit amet lacinia risus volutpat nec. Fusce ullamcorper ligula vel lacus imperdiet ultricies. Aenean pharetra laoreet ultricies. Praesent magna lorem, volutpat vel fringilla id, aliquet ut tortor. Mauris blandit id nisl quis lacinia. Praesent sodales imperdiet risus, et finibus nisi efficitur et. 
-                    <div id="divimg2"> <img src="https://cdn.pixabay.com/photo/2021/04/26/01/39/trees-6207925_1280.jpg" alt="..." class="img-thumbnail"></div>
+                    
                     Sed sit amet tortor et purus aliquam cursus. In hac habitasse platea dictumst. Sed eu viverra magna, a aliquam nisl. Maecenas id lectus eget eros consectetur finibus sed vitae enim. Suspendisse sodales euismod massa nec gravida. Morbi eleifend volutpat urna, bibendum vulputate tellus ultricies in. Sed convallis sit amet arcu vel maximus. Vivamus tellus sapien, venenatis nec congue eget, accumsan quis libero.
 
                     Proin luctus ultricies enim, eu consectetur purus vestibulum non. Praesent auctor lacus elit, in laoreet urna finibus quis. Aliquam velit enim, volutpat vitae augue nec, porttitor egestas massa. Morbi id justo quis nunc congue vestibulum. In nunc nunc, tincidunt nec finibus vitae, elementum in risus. Morbi iaculis arcu lectus, a commodo dui porttitor vitae. Phasellus eget mattis sem, nec convallis neque. Aenean convallis consectetur semper. Sed cursus, augue vitae mattis tempor, mi libero ultrices purus, eu dapibus risus metus at turpis. Nulla finibus purus in venenatis mollis.
@@ -72,7 +73,7 @@
 
             </div>
 
-
+        
         </div>
 
         <script src="forms.js"></script>

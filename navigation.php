@@ -42,7 +42,7 @@ if(isset($_SERVER["PHP_SELF"])){
                             <a class="dropdown-item" href="new_client.php">New client</a></li>
                         
                                                     
-                            <a class="dropdown-item" href="#about">About</a></li>
+                            <a class="dropdown-item" href="about.php">About from DB</a></li>
                          </div>
                     </ul>
                 </li>

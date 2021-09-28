@@ -159,13 +159,13 @@
             position: relative;
             display: flex;
             float: left;
-            width: 30%;
+            width: 15%;
             margin: 10px;
         }
         
         #divimg2 {
-            position: relative;
-            display: flex;
+            clear: right;
+            display: block;
             width: 30%;
             margin: 10px;
             float: right;

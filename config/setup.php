@@ -12,10 +12,16 @@ $datbname = "website";
 try{
     $connection = new PDO("mysql:host=$hostname;dbname=$datbname", $username, $password);
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Database Connected! <br><br>";
+    // echo "Database Connected! <br><br>";
 
    
 
 } catch (PDOException $e){
     echo "Could not connect: " . $e->getMessage() . "<br>";
+
 }
+
+$sth = $connection->query('SELECT * FROM `pages` WHERE id=1');
+$sth->execute();
+
+$page = $sth->fetch(PDO::FETCH_ASSOC);
