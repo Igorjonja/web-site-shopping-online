@@ -40,9 +40,12 @@ if(isset($_SERVER["PHP_SELF"])){
                             <a class="dropdown-item" href="random_cat.php">Cat randomizer</a></li>
 
                             <a class="dropdown-item" href="new_client.php">New client</a></li>
-                        
-                                                    
+                            
                             <a class="dropdown-item" href="about.php">About from DB</a></li>
+
+                            <a class="dropdown-item" href="createnew.php">Create new elements in section</a></li>
+
+
                          </div>
                     </ul>
                 </li>
