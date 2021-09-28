@@ -1,14 +1,14 @@
 <?php
 #Make the navigation an active
 // var_dump($_SERVER["PHP_SELF"]); cheking link name
-if(isset($_SERVER["PHP_SELF"])){
-    $link= $_SERVER["PHP_SELF"];
+if (isset($_SERVER["PHP_SELF"])) {
+    $link = $_SERVER["PHP_SELF"];
     $needle = 'online/';
-    $filter1 = stristr($link,$needle);
-    
+    $filter1 = stristr($link, $needle);
+
     // var_dump($link);
     // var_dump($filter1);
-    $filter2 = stristr($filter1,'/');
+    $filter2 = stristr($filter1, '/');
     // var_dump($filter2);
 }
 
@@ -17,45 +17,58 @@ if(isset($_SERVER["PHP_SELF"])){
 
 
 <nav>
+    <ul>
+        <li <?php if ($filter2 === "/index.php") {
+                echo 'class="active"';
+            } ?>>
+            <a href="index.php">Home</a>
+        </li>
+
+        <li <?php if ($filter2 === "/contact.php") {
+                echo 'class="active"';
+            } ?>>
+            <a href="contact.php">Contacts</a>
+        </li>
+
+        <li <?php if ($filter2 === "/section_with_columns.php") {
+                echo 'class="active"';
+            } ?>>
+            <a href="section_with_columns.php">Section with columns</a>
+        </li>
+
+        <li <?php if ($filter2 === "/section_with_table.php") {
+                echo 'class="active"';
+            } ?>>
+            <a href="section_with_table.php">Section with table</a>
+        </li>
+
+
+
+
+        <li>
+            <a href="#"> Practice operation </a>
             <ul>
-                <li <?php if ($filter2 === "/index.php"){echo 'class="active"';}?>>
-                    <a href="index.php">Home</a></li>
-        
-                <li <?php if ($filter2 === "/contact.php"){echo 'class="active"';}?>>
-                    <a href="contact.php">Contacts</a></li>
-                   
-                <li <?php if ($filter2 === "/section_with_columns.php"){echo 'class="active"';}?>>
-                    <a href="section_with_columns.php">Section with columns</a></li>
-                    
-                <li <?php if ($filter2 === "/section_with_table.php"){echo 'class="active"';}?>>
-                    <a href="section_with_table.php">Section with table</a></li>
+                <div class="dropdown-content">
+                    <a class="dropdown-item" href="random_cat.php">Cat randomizer</a>
+        </li>
 
-                    
+        <a class="dropdown-item" href="new_client.php">New client</a></li>
 
-           
-                <li>
-                    <a href="#"> Practice operation </a>
-                    <ul>
-                        <div class="dropdown-content">
-                            <a class="dropdown-item" href="random_cat.php">Cat randomizer</a></li>
+        <a class="dropdown-item" href="about.php">About from DB</a></li>
 
-                            <a class="dropdown-item" href="new_client.php">New client</a></li>
-                            
-                            <a class="dropdown-item" href="about.php">About from DB</a></li>
-
-                            <a class="dropdown-item" href="createnew.php">Create new elements in section</a></li>
+        <a class="dropdown-item" href="createnew.php">Create new elements in section</a></li>
 
 
-                         </div>
-                    </ul>
-                </li>
-                 <div class="actionButtons">      
-                <input class="changeColor" type="button" value="change color" onclick="changeColor()">
-                <input class="changeColor" type="button" value="change language" onclick="changeLanguage()">
-                 </div>
-            </ul>
-            
+        </div>
+    </ul>
+    </li>
+    <div class="actionButtons">
+        <input class="changeColor" type="button" value="change color" onclick="changeColor()">
+        <input class="changeColor" type="button" value="change language" onclick="changeLanguage()">
+    </div>
+    </ul>
 
-                
+
+
 </nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

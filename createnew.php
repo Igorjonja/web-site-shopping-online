@@ -20,10 +20,10 @@
 
             <ul class="list-group" id=myList>
                 <li class="list-group-item">Element1</li>
-                <li class="list-group-item">Element2</li>
+
 
             </ul>
-
+            <Textarea id="textarea" placeholder="Tap some text"></Textarea>
 
 
             <button onclick="myFunction()">Try it</button>
