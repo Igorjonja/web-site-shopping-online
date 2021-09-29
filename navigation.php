@@ -27,19 +27,19 @@ if (isset($_SERVER["PHP_SELF"])) {
         <li <?php if ($filter2 === "/contact.php") {
                 echo 'class="active"';
             } ?>>
-            <a href="contact.php">Contacts</a>
+            <a href="contact.php"  target=”_blank”>Contacts</a>
         </li>
 
         <li <?php if ($filter2 === "/section_with_columns.php") {
                 echo 'class="active"';
             } ?>>
-            <a href="section_with_columns.php">Section with columns</a>
+            <a href="section_with_columns.php"  target=”_blank”>Section with columns</a>
         </li>
 
         <li <?php if ($filter2 === "/section_with_table.php") {
                 echo 'class="active"';
             } ?>>
-            <a href="section_with_table.php">Section with table</a>
+            <a href="section_with_table.php"  target=”_blank”>Section with table</a>
         </li>
 
 
@@ -49,14 +49,14 @@ if (isset($_SERVER["PHP_SELF"])) {
             <a href="#"> Practice operation </a>
             <ul>
                 <div class="dropdown-content">
-                    <a class="dropdown-item" href="random_cat.php">Cat randomizer</a>
+                    <a class="dropdown-item" href="random_cat.php"  target=”_blank”>Cat randomizer</a>
         </li>
 
-        <a class="dropdown-item" href="new_client.php">New client</a></li>
+        <a class="dropdown-item" href="new_client.php"  target=”_blank”>New client</a></li>
 
-        <a class="dropdown-item" href="about.php">About from DB</a></li>
+        <a class="dropdown-item" href="about.php"  target=”_blank”>About from DB</a></li>
 
-        <a class="dropdown-item" href="createnew.php">Create new elements in section</a></li>
+        <a class="dropdown-item" href="createnew.php" target=”_blank”>Create new elements in section</a></li>
 
 
         </div>
