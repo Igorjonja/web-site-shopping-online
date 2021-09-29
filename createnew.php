@@ -26,7 +26,7 @@
             <Textarea id="textarea" placeholder="Tap some text"></Textarea>
 
 
-            <button onclick="myFunction()">Try it</button>
+            <button onclick="myFunction()">Add comment</button>
         </div>
     </main>
 

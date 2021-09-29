@@ -7,6 +7,5 @@ function myFunction() {
     node.appendChild(textnode);
     document.getElementById("myList").appendChild(node);
     node.className = "list-group-item";
-
-
+    document.getElementById("textarea").value = "";
 }
