@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map</title>
-    <?php include('config/css.php'); ?> <!-- style config  -->
-    <?php include('config/js.php'); ?>  <!-- javascript config  -->
+    <?php include('config/css.php'); ?>
+    <!-- style config  -->
+    <?php include('config/js.php'); ?>
+    <!-- javascript config  -->
 </head>
+
 <body>
     <header>
         <!-- Navigation -->
-        <?php include('navigation.php');?>
+        <?php include('navigation.php'); ?>
     </header>
     <main id="main">
-        <div id="currentForecast">     
+        <div id="currentForecast">
 
-            <h3>Current weather Riga</h3> 
-            <img src="//cdn.weatherapi.com/weather/64x64/day/113.png">
-                <div>
-                    <ul id="weatherList">
-                        
-                    </ul>
+            <h3>Current weather Riga</h3>
+            <img id="weatherImg">
+            <div>
+                <ul id="weatherList">
 
-                </div>
+                </ul>
 
-
-
-
-
-
-
+            </div>
         </div>
 
 
@@ -40,7 +37,8 @@
 </body>
 
 <footer class="footer">
-<!-- Footer -->
-<?php include('footer.php');?>
+    <!-- Footer -->
+    <?php include('footer.php'); ?>
 </footer>
+
 </html>
