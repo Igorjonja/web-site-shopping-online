@@ -27,7 +27,7 @@
         }
         /* Navigation Start*/
         
-        ul {
+        .navUl {
             list-style-type: none;
             margin: 0px;
             padding: 0px;
@@ -35,11 +35,11 @@
             background-color: #84a0bf;
         }
         
-        li {
+        .navli {
             float: left;
         }
         
-        li a {
+        .navli a {
             display: block;
             color: #4a3930;
             text-align: center;
@@ -47,7 +47,7 @@
             text-decoration: none;
         }
         
-        li a:hover {
+        .navli a:hover {
             background-color: #3a465a;
             color: beige;
             transition: 1s;
@@ -65,7 +65,7 @@
             z-index: 1;
         }
         
-        li:hover .dropdown-content {
+        .navli:hover .dropdown-content {
             display: block;
         }
         /* Navigation END */
@@ -170,3 +170,10 @@
             margin: 10px;
             float: right;
         }
+
+        #currentForecast{
+            position: relative;
+            display: block;
+
+        }
+        

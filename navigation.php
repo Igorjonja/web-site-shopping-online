@@ -17,26 +17,26 @@ if (isset($_SERVER["PHP_SELF"])) {
 
 
 <nav>
-    <ul>
-        <li <?php if ($filter2 === "/index.php") {
+    <ul class="navUl">
+        <li class="navli" <?php if ($filter2 === "/index.php") {
                 echo 'class="active"';
             } ?>>
             <a href="index.php">Home</a>
         </li>
 
-        <li <?php if ($filter2 === "/contact.php") {
+        <li class="navli" <?php if ($filter2 === "/contact.php") {
                 echo 'class="active"';
             } ?>>
             <a href="contact.php"  target=”_blank”>Contacts</a>
         </li>
 
-        <li <?php if ($filter2 === "/section_with_columns.php") {
+        <li class="navli" <?php if ($filter2 === "/section_with_columns.php") {
                 echo 'class="active"';
             } ?>>
             <a href="section_with_columns.php"  target=”_blank”>Section with columns</a>
         </li>
 
-        <li <?php if ($filter2 === "/section_with_table.php") {
+        <li class="navli" <?php if ($filter2 === "/section_with_table.php") {
                 echo 'class="active"';
             } ?>>
             <a href="section_with_table.php"  target=”_blank”>Section with table</a>
@@ -45,7 +45,7 @@ if (isset($_SERVER["PHP_SELF"])) {
 
 
 
-        <li>
+        <li class="navli">
             <a href="#"> Practice operation </a>
             <ul>
                 <div class="dropdown-content">
@@ -59,6 +59,8 @@ if (isset($_SERVER["PHP_SELF"])) {
         <a class="dropdown-item" href="createnew.php" target=”_blank”>Create new elements in section</a></li>
 
         <a class="dropdown-item" href="uploadForm.php" target=”_blank”>Upload file</a></li>
+
+        <a class="dropdown-item" href="weather.php" target=”_blank”>Weather</a></li>
 
 
         </div>
