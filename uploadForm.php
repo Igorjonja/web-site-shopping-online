@@ -15,19 +15,14 @@
     </header>
     <main id="main">
 
-    <form action="upload.php" method="post" enctype="multipart/form-data">
+    <form action="uploadForm.php" method="post" enctype="multipart/form-data">
         <input type="file" name="fileToUpload" id="fileToUpload">
         <input type="submit" name="submit" value="Upload">
 
 
     </form>
 
-
-
-
-
-
-
+<?php include('upload.php');?>
     </main>
     <script src="forms.js"></script>
 
