@@ -58,6 +58,8 @@ if (isset($_SERVER["PHP_SELF"])) {
 
         <a class="dropdown-item" href="createnew.php" target=”_blank”>Create new elements in section</a></li>
 
+        <a class="dropdown-item" href="uploadForm.php" target=”_blank”>Upload file</a></li>
+
 
         </div>
     </ul>
